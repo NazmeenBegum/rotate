@@ -1,0 +1,83 @@
+.parent{
+    
+    display: flex;
+    padding: 4rem;
+
+}
+.item1{
+    margin: 2rem;
+    width: 4rem;
+    height: 8rem;
+    background-color: blue;
+    border: 1.5px solid red;
+    transform: rotate(15deg);
+    transition: 2s
+}
+.item1:hover{
+    width: 4rem;
+    height: 8rem;
+    background-color: aqua;
+    transform: rotate(0deg);
+}
+.item2{
+    margin: 2rem;
+    width: 4rem;
+    height: 8rem;
+    background-color: blue;
+    border: 1.5px solid red;
+    transform: rotate(15deg);
+    transition: 2s
+}
+.item2:hover{
+    width: 8rem;
+    height: 12rem;
+    background-color: rgb(193, 248, 122);
+    transform: rotate(0deg);
+}
+.item3{
+    margin: 2rem;
+    width: 4rem;
+    height: 8rem;
+    background-color: blue;
+    border: 1.5px solid red;
+    transform: rotate(15deg);
+    transition: 2s
+}
+.item3:hover{
+    width: 8rem;
+    height: 12rem;
+    background-color: rgb(247, 155, 81);
+    transform: rotate(0deg);
+    
+}
+
+.item4{
+    margin: 2rem;
+    width: 4rem;
+   height: 8rem;
+   background-color: blue;
+   border: 1.5px solid red;
+   transform: rotate(15deg);
+   transition: 2s
+}
+.item4:hover{
+    width: 8rem;
+    height: 12rem;
+    background-color: rgb(255, 0, 255);
+    transform: rotate(0deg);
+}
+
+.rt{
+
+    width: 80px;
+    height: 80px;
+    
+    margin-left: 300px;
+    transition: 2s
+    
+
+}
+.rt:hover{
+    transform: rotate(360deg);
+
+}
